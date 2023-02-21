@@ -1,0 +1,12 @@
+************* Module app.shared.fibonacci
+shared/fibonacci.py:6: [C0304(missing-final-newline), ] Final newline missing
+shared/fibonacci.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+shared/fibonacci.py:1: [C0103(invalid-name), fibonacci] Argument name "n" doesn't conform to snake_case naming style
+shared/fibonacci.py:3: [C0103(invalid-name), fibonacci] Variable name "a" doesn't conform to snake_case naming style
+shared/fibonacci.py:3: [C0103(invalid-name), fibonacci] Variable name "b" doesn't conform to snake_case naming style
+shared/fibonacci.py:5: [C0103(invalid-name), fibonacci] Variable name "a" doesn't conform to snake_case naming style
+shared/fibonacci.py:5: [C0103(invalid-name), fibonacci] Variable name "b" doesn't conform to snake_case naming style
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+

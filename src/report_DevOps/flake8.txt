@@ -1,0 +1,4 @@
+[1m../app/config_DevOps/generate_graph.py[m[36m:[m11[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m../app/config_DevOps/generate_graph.py[m[36m:[m100[36m:[m11[36m:[m [1m[31mW292[m no newline at end of file
+[1m../app/shared/fibonacci.py[m[36m:[m6[36m:[m34[36m:[m [1m[31mW292[m no newline at end of file
+[1m../app/test/test_fibonacci.py[m[36m:[m6[36m:[m19[36m:[m [1m[31mW292[m no newline at end of file

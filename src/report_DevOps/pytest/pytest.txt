@@ -1,0 +1,9 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.2, pytest-7.2.1, pluggy-1.0.0
+rootdir: /app
+plugins: metadata-2.0.4, cov-4.0.0, html-3.2.0
+[1mcollecting ... [0m[1mcollected 1 item                                                               [0m
+
+test/test_fibonacci.py [32m.[0m[32m                                                 [100%][0m
+
+[32m============================== [32m[1m1 passed[0m[32m in 0.02s[0m[32m ===============================[0m

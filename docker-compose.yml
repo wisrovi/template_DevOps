@@ -1,0 +1,36 @@
+version: "3.7"
+
+x-app-common:
+  &app-common
+  build:
+    context: .
+    dockerfile: Dockerfile
+  env_file:
+    - .envs/app.env
+  volumes:
+    - ./src:/app
+  networks:
+    - sidecar_network
+
+services:
+  sidecar:
+    <<: *app-common
+    volumes:
+      - ./src:/app
+      # Extend homes to preserve bash and python history (DX)
+      - app-roothome:/root
+
+  coverage-test:
+    image: nginx
+    ports:
+        - 8000:80
+    volumes:
+        - ./src/report_DevOps/cov_html:/usr/share/nginx/html
+
+networks:
+  sidecar_network:
+    driver: bridge
+
+volumes:
+  app-apphome:
+  app-roothome:
