@@ -6,7 +6,7 @@ x-app-common:
     context: .
     dockerfile: Dockerfile
   env_file:
-    - .envs/app.env
+    - ./.envs/app.env
   volumes:
     - ./src:/app
   networks:

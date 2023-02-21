@@ -1,12 +1,4 @@
-[7;33m************* Module app.shared.fibonacci[0m
-shared/fibonacci.py:6: [C0304([1mmissing-final-newline[0m), ] [1mFinal newline missing[0m
-shared/fibonacci.py:1: [C0114([1mmissing-module-docstring[0m), ] [1mMissing module docstring[0m
-shared/fibonacci.py:1: [C0103([1minvalid-name[0m), fibonacci] [1mArgument name "n" doesn't conform to snake_case naming style[0m
-shared/fibonacci.py:3: [C0103([1minvalid-name[0m), fibonacci] [1mVariable name "a" doesn't conform to snake_case naming style[0m
-shared/fibonacci.py:3: [C0103([1minvalid-name[0m), fibonacci] [1mVariable name "b" doesn't conform to snake_case naming style[0m
-shared/fibonacci.py:5: [C0103([1minvalid-name[0m), fibonacci] [1mVariable name "a" doesn't conform to snake_case naming style[0m
-shared/fibonacci.py:5: [C0103([1minvalid-name[0m), fibonacci] [1mVariable name "b" doesn't conform to snake_case naming style[0m
 
-------------------------------------------------------------------
-Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 

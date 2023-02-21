@@ -8,7 +8,10 @@ import matplotlib.pyplot as plt
 
 
 def process(line):
-    """Process a line from the pylint report, returning just the code & message."""
+    """
+    Process a line from the pylint report,
+    returning just the code & message.
+    """
     match = re.match(r"^.*.*:\d+: \[(?P<code>.*)\((?P<message>.*)\),", line)
     if match:
         return f"{match.group('code')} - {match.group('message')}"
