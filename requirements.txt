@@ -8,6 +8,4 @@ pyflakes==3.0.1
 black==21.12b0
 colorlog==6.7.0
 matplotlib==3.4.3
-webdriver_manager
 Pillow
-selenium

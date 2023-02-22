@@ -1,6 +1,13 @@
+"""
+Test the fibonacci function.
+"""
+
 from shared.fibonacci import fibonacci
 
 
 def test_fibonacci():
-    a = fibonacci(10)
-    assert a == 89
+    """
+    Test the fibonacci function.
+    """
+    value_fibonacci = fibonacci(10)
+    assert value_fibonacci == 89
