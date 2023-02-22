@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/src/report_DevOps" />
+            <path value="file://$PROJECT_DIR$/src/config_DevOps" />
+            <path value="file://$PROJECT_DIR$/src/config_DevOps/.pylint_cache" />
+            <path value="file://$PROJECT_DIR$/src/config_DevOps/.pytest_cache" />
+            <path value="file://$PROJECT_DIR$/.envs" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>
