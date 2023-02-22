@@ -39,7 +39,7 @@ down:
 sidecar-bash:
 	docker-compose run --rm sidecar bash
 
-app-requeriments:
+app-requirements:
 	docker-compose run --rm sidecar pip freeze > src/requirements.txt
 
 vm-create:
